@@ -1,0 +1,65 @@
+
+print("Welcome To My Quiz!")
+
+playing = input("Are You Sure You Want To Play? ")
+
+if playing != "yes":
+    print("sorry To se you leaving :(")
+    quit()
+
+
+print("COOL Let's Play :)")
+score = 0
+
+#new segment
+
+
+
+
+
+answer = input("Founder Of FaceBook? ")
+if answer == "Mark":
+    print("Correct¡")
+    score += 1
+
+else: print("Incorrect¡" + "The Answer Was Iphone")
+
+
+
+answer = input("Who is the founder of Apple ? ")
+if answer == "Steave":
+    print("Correct¡")
+    score += 1
+
+else: print("Incorrect¡" + "The Answer Was Steave")
+
+
+answer = input("Who Is The Onwer Of Space X ? ")
+if answer == "Elon Musk":
+    print("Correct¡")
+    score += 1
+
+else: print("Incorrect¡" + "The Answer Was Elon Musk")
+
+
+answer = input("YouTube Is A Part Of Which Company ")
+if answer == "Google":
+    print("Correct¡")
+    score += 1
+
+else: print("Incorrect¡" + "The Answer Was Elon Musk")
+
+
+answer = input("Name The The Laptop That Is Disinged By Apple ")
+if answer == "Macbook":
+    print("Correct¡")
+    score += 1
+
+else: print("Incorrect¡" + "The Answer Was Macbook")
+
+
+
+print("Well Done Your Score Is " + str(score) + ":)")
+
+
+print("Thanks For Using This Quiz App")
